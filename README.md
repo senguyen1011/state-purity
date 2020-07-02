@@ -1,68 +1,135 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The State Purity Test
 
-## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and inspired by the [Rice Purity Test](http://ricepuritytest.com/).
 
-In the project directory, you can run:
+### How To Interpret the Test
 
-### `npm start`
+Each question answered in the original Rice Purity Test would be subtracted from a total of 100. A score of 100 would be totally pure, while a score of 0 would mean you are an absolutely depraved person. <br/>
+While these tests are just for fun, the original test would not discriminate on how each act would impact your overall score. Using methamphetamine would be considered equal to holding hands by this logic (but honestly, pre-marital hand holding is pretty messed up).<br/>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### How Questions Are Weighted
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+The State Purity Test assigns a weight to every question.<br >
 
-### `npm test`
+There are 20 minor acts, which each have a weight of 1.<br/>
+There are 30 immoral acts, which each have a weight of 2.<br/>
+There are 20 raunchy acts, which each have a weight of 3.<br/>
+There are 20 scandalous acts, which each have a weight of 4.<br/>
+There are 10 unspeakable acts, which each have a weight of 5.<br/>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It's not perfect, and weights were assigned at my discretion, so none of this is really objective, but it gives a better picture of your purity if you're trying to compare your scores with another person.
 
-### `npm run build`
+### `Minor Acts`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Held hands romantically
+- Been on a date
+- Been in a relationship
+- Danced without leaving room for Jesus
+- Kissed a non-family member
+- Kissed a non-family member on the lips
+- French kissed
+- Seen or been seen by another person in a sensual context
+- Seen or read pornographic material
+- Massaged or been massaged sensually
+- Purchased contraceptives
+- Spent the night with a member of the perferred sex
+- Ingested alcohol in a non-religious context
+- Played a drinking game
+- Been drunk
+- Faked sobriety to parents or teachers
+- Used tobacco
+- Urinated in public
+- Gone skinny-dipping
+- Committed an act of vandalism
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### `Immoral Acts`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- French kissed in public
+- Kissed on the neck
+- Kissed horizontally
+- Given or received a hickey
+- Kissed or been kissed on the breast
+- Kissed someone below the belt
+- Kissed for more than two hours consecutively
+- Masturbated
+- Masturbated to a picture or video
+- Been caught masturbating
+- Gone through the motions of intercourse while fully dressed
+- Undressed or been undressed by a member of the perferred sex
+- Showered with a member of the perferred sex
+- Fondled or had your butt cheeks fondled
+- Fondled or had your breasts fondled
+- Fondled or had your genitals fondled
+- Had or given "blue balls?
+- Had an orgasm due to someone else's manipulation
+- Sent a sexually explicit text or instant message
+- Engaged in fellatio
+- Engaged in cunnilingus
+- Been walked in on while engaging in a sexual act
+- Used marijuana
+- Been sent to the office of a principal, dean, or judicial affairs representative for a disciplinary infraction
+- Been put on disciplinary probation or suspended
+- Seen a stripper
+- Had the police question you
+- Had sexual intercourse
+- Had sexual intercourse with a virgin
+- Had a STI test due to a reasonable suspicion
 
-### `npm run eject`
+### `Raunchy Acts`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Played a game involving stripping
+- Masturbated with an inanimate object
+- Sent or received sexually explicit photographs
+- Ingested someone else's genital secretion
+- Kicked a roommate out to commit a sexual act
+- Had severe memory loss due to alcohol
+- Used a drug stronger than marijuana
+- Gone streaking
+- Had the police called on you
+- Had sexual intercourse 3 or more times in 1 night
+- Sex number lol
+- Had sexual intercourse 10 or more times
+- Had sexual intercourse in 4 or more positions
+- Had sexual intercourse in a motor vehicle
+- Had sexual intercourse outdoors
+- Had sexual intercourse in a swimming pool or hot tub
+- Had sexual intercourse while you or your partner's parents were in the same home
+- Had sexual intercourse with a partner with a 3 or more year age difference
+- Had a STI
+- Had a pregnancy scare
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `Scandalous Acts`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Masturbated while someone else was in the room
+- Engaged in sexually explicit activity over video chat
+- Used a sex toy with a partner
+- Run from the police
+- Had the police handcuff you
+- Been arrested
+- Had sexual intercourse in public
+- Had sexual intercourse in a bed not belonging to you or your partner
+- Had sexual intercourse with non-participating third party in the same room
+- Joined the mile high club
+- Partcipated in a "booty call" with a partner whom you were not in a relationship with
+- Traveled 100 or more miles for the primary purpose of sexual intercourse
+- Had a sexual intercourse without a condom
+- Had sexual intercourse with 5 or more partners
+- Been photographed or filmed during sexual intercourse by yourself or others
+- Had period sex
+- Had anal sex
+- Impregnated someone or been impregnated
+- Paid or been paid for a sexual act
+- Committed an act of voyeurism
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `Unspeakable Acts`
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Cheated on a significant other during a relationship
+- Used methamphetamine, crack cocaine, PCP, horse tranquilizers, or heroin
+- Been convicted of a crime
+- Been convicted of a felony
+- Had sexual intercourse with a stranger or person you met within 24 hours
+- Had a threesome
+- Attended an orgy
+- Had 2 or more distinct acts of sexual intercourse with 2 or more people within 24 hours
+- Committed an act of incest
+- Engaged in bestiality
