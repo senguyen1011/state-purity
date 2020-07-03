@@ -23,7 +23,7 @@ class Result extends Component {
         <div className='card-body'>
           <div className='row text-center'>
             <div className='col'>
-              <h2>{100 - ((this.props.score / 270) * 100).toFixed(1)}</h2>
+              <h2>{(100 - ((this.props.score / 270) * 100)).toFixed(1)}</h2>
               <h6 className='text-muted mb-0'>Weighted Purity Score</h6>
             </div>
           </div>
