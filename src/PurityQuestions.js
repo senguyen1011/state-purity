@@ -96,11 +96,11 @@ const PurityQuestions = [
     weight: 2
   },
   {
-    content: "Undressed or been undressed by a member of the perferred sex?",
+    content: "Undressed or been undressed by a member of the preferred sex?",
     weight: 2
   },
   {
-    content: "Showered with a member of the perferred sex?",
+    content: "Showered with a member of the preferred sex?",
     weight: 2
   },
   {
@@ -160,7 +160,7 @@ const PurityQuestions = [
     weight: 4
   },
   {
-    content: "Spent the night with a member of the perferred sex?",
+    content: "Spent the night with a member of the preferred sex?",
     weight: 1
   },
   {
